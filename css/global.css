@@ -1,0 +1,137 @@
+/* Setting body layout same on all pages*/
+body{
+  margin: 0;
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* One navigation bar for all pages*/
+.navbar{
+  background-color:#FFFFFF ;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  padding-right: 4rem;
+  
+  
+  
+  }
+  .navbar__logo {
+    color:#335576 ;
+    text-decoration: none;
+    font-weight: 800;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  /* Using id to target anchor same as the page we are on*/
+ .currentpage{
+    padding-bottom: 0.3rem;
+    border-bottom:.2rem solid  #DB7A4E ;
+  }
+  .navbar ul{
+    display: flex;
+    justify-content: space-around;
+    width: 32%;
+    list-style-type: none;
+    
+    
+  
+  }
+ .hawaii{
+   background-image: url(../assets/images/hawaii.jpg);
+ }
+ .iceland{
+background-image: url(../assets/images/iceland.jpg);
+
+ }
+.greece{
+  background-image: url(../assets/images/greece.jpg); 
+}
+
+.button span{
+  color: blue;
+}
+
+#getstart{
+  color: #FFFFFF;
+  
+}
+.getstart__hero{
+  background-color:#f4e2cd;
+
+}
+
+/* Same footer for all pages */
+
+.footer{
+  background-color: #FEFAF5;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 4rem 8rem 4rem 4rem;
+
+}
+.footer__items h2 , .footer__items p{
+  color: #335576;
+  
+}
+.footer__items h2{
+  font-size: 1.2rem;
+}
+.footer__items p {
+font-size: 0.8rem; ;
+
+}
+.footer__items span{
+  font-size: 0.9rem;
+  color: #DB7A4E;
+ 
+}
+.footer__items--content{
+ width: 160%;
+ 
+  
+}
+
+
+.footer__items--images{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  
+  
+}
+.footer__items a img{
+
+height: 1.8rem;
+display: flex;
+
+
+}
+
+#hours div:nth-child(2){
+ padding-top: 3.1rem;
+
+}
+#hours div:nth-child(3){
+  padding-top: 3.1rem;
+ 
+  
+ 
+ }
+
+#hours{
+
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

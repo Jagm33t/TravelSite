@@ -1,0 +1,99 @@
+
+
+.booking{
+  background-color: #FEFAF5;
+  display: flex;
+  justify-content: space-between;
+  padding:4rem 4rem;
+
+}
+.booking__content{
+  width: 50%;
+  
+
+
+}
+.booking h1{
+  color: #335576;
+  font-size: 2.5rem;
+
+}
+.booking__content p{
+  color:  #335576;
+  font-size: 0.95rem;
+}
+.booking__content button, button{
+  color: #FFFFFF;
+  font-size: 1rem;
+  font-weight: light;
+  background-color: #DB7A4E;
+  width: 10rem;
+  border-radius: 4rem;
+  padding: .7rem;
+  border: none;
+  margin-top: 0.7rem;
+}
+
+.booking__image{
+  width: 40%;
+
+}
+.booking__image img{
+  width: 100%;
+}
+
+.product h2{
+  margin-left: 2rem;
+  color: #335576;
+
+}
+.product__content{
+  margin: 2rem 9rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* Making 3 Cards one for each destination  */
+.product__container {
+background-size: 100%;
+width: 17rem;
+height: 25rem;
+border-radius: 0.31rem;
+border: 1px solid rgba(0,0,0,0.2);
+box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.card1{
+  background-image: url(../assets/images/hawaii.jpg);
+}
+.card2{
+  background-image: url(../assets/images/iceland.jpg);
+}
+.card3{
+  background-image: url(../assets/images/greece.jpg);
+}
+.product__container--link{
+  position: absolute;
+  padding-top: 23rem;
+  padding-left: 10rem;
+  font-size: 1.3rem;
+  color: white;
+  font-weight: 800;
+
+
+
+}
+@media (max-width:918px) {
+  .product__content{
+    flex-direction: column;
+  }
+  
+  
+}
+@media (max-width:414px) {
+  .footer {
+    flex-direction: column;
+  }
+
+}
